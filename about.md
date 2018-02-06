@@ -1,30 +1,34 @@
 ---
 layout: page
-title: About
+title: About Us
 ---
 
-<p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
-</p>
+![The main logo](https://raw.githubusercontent.com/BootleggersROM/ExtraStuff/master/threadfiles/00-banner.png)
 
-In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
 
-There are currently two themes built on Poole:
+**Bootleggers ROM** is an aftermarket firmware based on **Ground Zero Open Source Project (GZOSP)** and brings custom features with the most useful apps on your device, with the goal of **"Making you feel like 家"**.
 
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
+Using the stability and compatibility of GZOSP, this ROM is also packed with some custom wallpaper (Dawn by fxckingdeathwish), ringtones, and fonts, to bring to your device into a more fresh look, also with a selection of apps, header packs and wallpapers (on ShishuWalls app).
 
-Learn more and contribute on [GitHub](https://github.com/poole).
+Also, we got our ![Google+ Community](https://plus.google.com/communities/117332529104028864472) and our ![Telegram Group](https://t.me/keepthebootleg) to talk about the ROM and share some love if you wish!
 
-## Setup
 
-Some fun facts about the setup of this project include:
+> "Some of the features that are included on this ROM are:
 
-* Built for [Jekyll](http://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Sublime Text 2](http://sublimetext.com), an amazing code editor
-* Designed and developed while listening to music like [Blood Bros Trilogy](https://soundcloud.com/maddecent/sets/blood-bros-series)
+  * ROM Logos
+  * QS Rows and Colums
+  * Scroll on small QS
+  * OmniStyle: Header Images
+  * OmniJaws: Weather on QS
+  * Volume Keys: Wake up, skip tracks and switch according to rotation
+  * Dirty Unicorns Interface (DUI): Fling, Smartbar and Pulse
+  * Show song album cover and battery info on Lockscreen
+  * Custom Carrier Label
+  * Power Menu Items
+  * AOSP Recents: Membar, Clear All and Inmersive Recents.
+  * Battery LED light settings
+  * Type of notifications: Heads up and Ticker, pick your poison
+  * Wake and Vibrate on Phone Plugged on Charger
+  * AppOps: Manage your apps permissions in an advanced way[/CODE]
 
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
-
-Thanks for reading!
+Also, you can check a full list of Features available [here](https://github.com/BootleggersROM/ExtraStuff/blob/master/Features.md)."
