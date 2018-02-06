@@ -10,7 +10,7 @@ title: About Us
 
 Using the stability and compatibility of GZOSP, this ROM is also packed with some custom wallpaper (Dawn by fxckingdeathwish), ringtones, and fonts, to bring to your device into a more fresh look, also with a selection of apps, header packs and wallpapers (on ShishuWalls app).
 
-Also, we got our ![Google+ Community](https://plus.google.com/communities/117332529104028864472) and our ![Telegram Group](https://t.me/keepthebootleg) to talk about the ROM and share some love if you wish!
+Also, we got our [Google+ Community](https://plus.google.com/communities/117332529104028864472) and our [Telegram Group](https://t.me/keepthebootleg) to talk about the ROM and share some love if you wish!
 
 
 > Some of the features that are included on this ROM are:
