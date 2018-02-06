@@ -17,7 +17,7 @@ If you got some ideas,bug fixes, stability improvements or want to help to suppo
 > **Device Sources**
 
 >
->[Surnia tree](https://github.com/oreo-surnia)
+>[Surnia](https://github.com/oreo-surnia)
 >
 
 >
