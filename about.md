@@ -13,7 +13,7 @@ Using the stability and compatibility of GZOSP, this ROM is also packed with som
 Also, we got our ![Google+ Community](https://plus.google.com/communities/117332529104028864472) and our ![Telegram Group](https://t.me/keepthebootleg) to talk about the ROM and share some love if you wish!
 
 
-> "Some of the features that are included on this ROM are:
+> Some of the features that are included on this ROM are:
 
   * ROM Logos
   * QS Rows and Colums
@@ -29,6 +29,6 @@ Also, we got our ![Google+ Community](https://plus.google.com/communities/117332
   * Battery LED light settings
   * Type of notifications: Heads up and Ticker, pick your poison
   * Wake and Vibrate on Phone Plugged on Charger
-  * AppOps: Manage your apps permissions in an advanced way[/CODE]
+  * AppOps: Manage your apps permissions in an advanced way
 
-Also, you can check a full list of Features available [here](https://github.com/BootleggersROM/ExtraStuff/blob/master/Features.md)."
+Also, you can check a full list of Features available [here](https://github.com/BootleggersROM/ExtraStuff/blob/master/Features.md).
