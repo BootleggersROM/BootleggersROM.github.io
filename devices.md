@@ -15,3 +15,9 @@ Here you can download **Bootleggers ROM** for your supported device
 > Device name:**Xiaomi Redmi Note 4**  
 > Codename:   **Mido**  
 > XDA Thread: [BootleggersROM 1.9-BETA for mido](https://forum.xda-developers.com/redmi-note-4/xiaomi-redmi-note-4-snapdragon-roms-kernels-recoveries--other-development/rom-bootleggersrom-mido-t3728677)
+
+
+
+> Device name:**Xiaomi Redmi Note 3**  
+> Codename:   **Kenzo**  
+> XDA Thread: [Bootleggers ROM for Redmi Note 3 kenzo](https://forum.xda-developers.com/redmi-note-3/development/rom-bootleggersrom-1-9-beta-kenzo-t3746065)
