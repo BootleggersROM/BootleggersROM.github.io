@@ -1,0 +1,74 @@
+/*THEME RELATED STUFF, KIND OF PLAY WITH THIS*/
+
+.shishutheme {
+    background:#121217;
+    color:#ffffff;
+    font-family: 'Roboto Condensed', sans-serif!important;
+}
+
+
+/* THIS IS FOR INDIVIDUAL USES*/
+
+/* jumbotron sizes, mainly for various uses*/
+.shishutron-bg {
+    background:url('https://raw.githubusercontent.com/BootleggersROM/ExtraStuff/master/threadfiles/bootleggers_01_logo.jpg') no-repeat center center;
+  background-size: cover;
+  height: 100%;
+  overflow: hidden;
+}
+
+.shishutron {
+    height:30em!important;
+    box-shadow:0 0 0 0;
+    color:#ffffff;
+    padding-top:9em;
+}
+
+.shishumain  {
+    border-radius:2px;
+    box-shadow:0 0 4px 0 rgba(0,0,0,.14),0 3px 4px 0 rgba(0,0,0,.12),0 1px 5px 0 rgba(0,0,0,.2)!important;
+    background:rgba(0,0,0,0.25)!important;
+}
+
+.bootlegintro {
+    padding-bottom:0px;
+}
+
+.bootlegintrotext {
+    padding-top:0em;
+}
+
+
+
+/*bg*/
+.shishubg  {
+    background:#121217;
+}
+
+/*cards bg*/
+.shishulightbg {
+    background: #24242e;
+}
+
+
+/*button accent*/
+.shishuaccent {
+    background-color:#e20090;
+}
+
+.shishuaccent:active {
+    background-color:#b40073;
+}
+
+.btn-link, a {
+    color:#e20090!important;
+}
+
+
+/* This is just a tweak for the layout */
+    @media (min-width: 600px) {
+    .bootlegintro {
+    padding-bottom:10px;
+    }
+    .bootlegintrotext {    padding-top:12em;}
+    }

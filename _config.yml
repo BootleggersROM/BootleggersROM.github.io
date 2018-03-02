@@ -10,6 +10,12 @@ description:         'Bootleggers ROM is an aftermarket firmware based on Ground
 url:                 http://BootleggersROM.github.io
 baseurl:             ''
 paginate:            5
+exclude:            ['README.md', 'License.md', 'intro.old']
+
+# Collections
+collections:
+    devicelist:
+    addonstuff:
 
 # About/contact
 author:

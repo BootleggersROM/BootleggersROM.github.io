@@ -1,10 +1,8 @@
 ---
 layout: page
 title: About Us
+image: https://raw.githubusercontent.com/BootleggersROM/ExtraStuff/master/threadfiles/00-banner.png
 ---
-
-![The main logo](https://raw.githubusercontent.com/BootleggersROM/ExtraStuff/master/threadfiles/00-banner.png)
-
 
 **Bootleggers ROM** is an aftermarket firmware based on **Ground Zero Open Source Project (GZOSP)** and brings custom features with the most useful apps on your device, with the goal of **"Making you feel like 家"**.
 

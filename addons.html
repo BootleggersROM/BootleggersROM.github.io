@@ -4,23 +4,23 @@ title: "ROM Stuff"
 permalink: romstuff/addons.html
 ---
 
-<div class="text-center">
-  <h2>Here you can download various addons for your device to increase the customizations</h2>
-
-  <h3><u>Root Your Device!</u></h3>
-  <br>
-  <li><a href="https://forum.xda-developers.com/apps/magisk/official-magisk-v7-universal-systemless-t3473445">Magisk-Root & Universal Systemless Interface</a></li>
-  <li><a href="http://www.supersu.com/download">Super SU</a></li>
-  <br>
-  <h3><u>Add Various Features</u></h3>
-  <br>
-  <li><a href="https://forum.xda-developers.com/showthread.php?t=3034811">Xposed Installer & Framework</a></li>
-  <li><a href="https://forum.xda-developers.com/crossdevice-dev/sony/soundmod-project-desire-feel-dream-sound-t3130504">Project Meli-Sound Mod</a></li>
-  <br>
-  <h3><u>Interesting Substratum Themes and Mods</u></h3>
-  <br>
-  <li><a href="https://play.google.com/store/apps/details?id=com.gaurav.curve">Curve (Rounded corners)</a></li>
-  <li><a href="https://play.google.com/store/apps/details?id=pitchblack.origins.westcrip">PitchBlack Theme</a></li>
-  <li><a href="https://play.google.com/store/apps/details?id=com.itssaalex.quetzal">Quetzal Theme</a></li>
-  <li><a href="https://play.google.com/store/apps/details?id=com.amald.digital.clocks">MNML Digital Clock Mods</a></li>
+<!-- BLOG CODE -->
+<div class="container">
+  <div class="row justify-content-center">
+{% for addon in site.addonstuff %}
+        <div class="col-lg-6">
+            <div class="card shishulightbg">
+              <img class="card-img-top img-fluid mx-auto" src="{{ addon.addonpic }}" alt="Card image cap" >
+              <div class="card-body">
+                <h5 class="card-title">{{ addon.addontitle }}</h5>
+                <h6 class="card-subtitle mb-2 text-muted" style="color:rgba(255,255,255,.38) !important">{{ addon.addontype }}</h6>
+                <p>{{ addon.addondesc }} </p>
+                <div class="btn-group" role="group" aria-label="Basic example">
+                  <a href="{{ addon.addonlink }}"><button type="button" class="btn btn-secondary">{{ addon.addonlinktitle }}</button></a>
+                </div>
+        </div>
+      </div>
+        </div>
+{% endfor %}
+    </div>
 </div>

@@ -2,7 +2,19 @@
 layout: default
 ---
 
-<div class="page">
-  <h1 class="page-title">{{ page.title }}</h1>
+<!-- PAGE CODE -->
+<div class="container">
+  <div class="row justify-content-center">
+        <div class="col-lg-12">
+            <div class="card shishulightbg">
+              {% if page.image %}
+              <img class="card-img-top img-fluid mx-auto" src="{{ page.image }}" alt="Card image cap" style="max-height:300px">
+              {% endif %}
+              <div class="card-body">
+  <h5 class="card-title">{{ page.title }}</h5>
   {{ content }}
+              </div>
+            </div>
+        </div>
+  </div>
 </div>

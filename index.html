@@ -1,25 +1,31 @@
 ---
 layout: default
-title: Home
+title: Blog
+permalink: blog.html
 ---
 
-<div class="posts">
+
+<!-- BLOG CODE -->
+<div class="container posts">
+  <div class="row justify-content-center">
+        <div class="col-lg-12">
   {% for post in paginator.posts %}
-  <div class="post">
-    <h1 class="post-title">
-      <a href="{{ site.baseurl }}/{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
 
-    <span class="post-date">{{ post.date | date_to_string }}</span>
-
-    {{ post.content }}
-  </div>
+           <div class="card shishulightbg">
+              <img class="card-img-top img-fluid mx-auto" src="{{ post.image }}" alt="Card image cap" style="max-height:300px">
+              <div class="card-body">
+                <h5 class="card-title"><a href="{{ site.url }}/{{ post.url }}"> {{ post.title }} </a> </h5>
+                <h6 class="card-subtitle mb-2 text-muted" style="color:rgba(255,255,255,.38) !important">{{ post.date | date_to_string }}</h6>
+                    {{ post.content }}
+              </div>
+            </div>
+            <br><br>
   {% endfor %}
+        </div>
+  </div>
 </div>
 
-<div class="pagination">
+<!--<div class="pagination">
   {% if paginator.next_page %}
     <a class="pagination-item older" href="{{ site.baseurl }}/page{{paginator.next_page}}">Older</a>
   {% else %}
@@ -34,5 +40,5 @@ title: Home
   {% else %}
     <span class="pagination-item newer">Newer</span>
   {% endif %}
-</div>
+</div> -->
 

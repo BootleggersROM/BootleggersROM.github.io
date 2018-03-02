@@ -1,9 +1,8 @@
 ---
 layout: post
 title: The 2.0 Release
+image: https://raw.githubusercontent.com/BootleggersROM/ExtraStuff/master/blogstuff/bannerblueprint.jpg
 ---
-
-![BannerNew](https://raw.githubusercontent.com/BootleggersROM/ExtraStuff/master/blogstuff/bannerblueprint.jpg)
 
 Welp, the time is over and here we are with a new update, that we may call [Blue Print](https://www.youtube.com/watch?v=Mol1fLL4KHs) because... we can. After a long time with an 1.0 version that wasn't so stable, we decided to jump and go into 8.1 even though it took their time. 
 
