@@ -1,8 +1,8 @@
 ---
 addontitle: SuperSU
 addontype: Root method
-addonpic: https://google.se
-addondesc: Try the supersu thing. hello i want to speak about the word of the magic supersu who allows us to break our device and blame other people of doing it without knowing what we were doing
-addonlink: https://google.com
-addonlinktitle: AAAAAAAAAAAAAA
+addonpic: {{ site.baseurl }}/img/addons/supersu.jpg
+addondesc: SuperSU is the most known root method and the most veteran one. If you want a simpler root manager, this might be your choice
+addonlink: http://www.supersu.com/download
+addonlinktitle: Get the latest SuperSU
 ---
