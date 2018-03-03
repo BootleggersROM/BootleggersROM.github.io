@@ -1,6 +1,6 @@
 ---
 devcodename: lettuce
-devrealname: Yu Yureka
+devrealname: Yu Yuphoria
 devmaintainer: nIkHiL
 devxdathread: https://about:blank
 ---
