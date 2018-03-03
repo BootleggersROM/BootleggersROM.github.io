@@ -2,5 +2,5 @@
 devcodename: land
 devrealname: Xiaomi Redmi 3s
 devmaintainer: taran107
-devxdathread: Fluffy vanilla cream cheese on a vanilla cupcake.
+devxdathread: https://forum.xda-developers.com/xiaomi-redmi-3s/development/rom-bootleggers-rom-volte-t3749761
 ---

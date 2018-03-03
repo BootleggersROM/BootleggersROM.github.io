@@ -2,5 +2,5 @@
 devcodename: kenzo
 devrealname: Xiaomi Redmi Note 3
 devmaintainer: dinosnore
-devxdathread: Fluffy vanilla cream cheese on a vanilla cupcake.
+devxdathread: https://forum.xda-developers.com/redmi-note-3/development/rom-bootleggersrom-1-9-beta-kenzo-t3746065
 ---
