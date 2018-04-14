@@ -19,7 +19,7 @@ title: Devices and Downloads
       <p><strong>Official Maintainer:</strong> {{ devicename.devmaintainer }} </p>
       <div class="btn-group" role="group" aria-label="Downloads">
         <a href="{{ devicename.devxdathread }}"><button type="button" class="btn btn-secondary">XDA Thread</button></a>
-        {% if devicelist.devdlink %}
+        {% if devicename.devdlink %}
         <a href="{{ devicename.devdlink }}"><button type="button" class="btn btn-secondary">Downloads</button></a>
         {% else %}
         <a href="https://sourceforge.net/projects/bootleggersrom/files/{{ devicename.devcodename }}"><button type="button" class="btn btn-secondary">Downloads</button></a>
