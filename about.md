@@ -1,32 +1,58 @@
 ---
-layout: page
-title: About Us
-image: https://raw.githubusercontent.com/BootleggersROM/ExtraStuff/master/threadfiles/00-banner.png
+layout: maincard-nopad
+title: About
+permalink: /about/
 ---
-
-**Bootleggers ROM** is an aftermarket firmware based on **Ground Zero Open Source Project (GZOSP)** and brings custom features with the most useful apps on your device, with the goal of **"Making you feel like 家"**.
-
-Using the stability and compatibility of GZOSP, this ROM is also packed with some custom wallpaper (Dawn by fxckingdeathwish), ringtones, and fonts, to bring to your device into a more fresh look, also with a selection of apps, header packs and wallpapers (on ShishuWalls app).
-
-Also, we got our [Google+ Community](https://plus.google.com/communities/117332529104028864472) and our [Telegram Group](https://t.me/keepthebootleg) to talk about the ROM and share some love if you wish!
-
-
-> Some of the features that are included on this ROM are:
-
-  * ROM Logos
-  * QS Rows and Colums
-  * Scroll on small QS
-  * OmniStyle: Header Images
-  * OmniJaws: Weather on QS
-  * Volume Keys: Wake up, skip tracks and switch according to rotation
-  * Dirty Unicorns Interface (DUI): Fling, Smartbar and Pulse
-  * Show song album cover and battery info on Lockscreen
-  * Custom Carrier Label
-  * Power Menu Items
-  * AOSP Recents: Membar, Clear All and Inmersive Recents.
-  * Battery LED light settings
-  * Type of notifications: Heads up and Ticker, pick your poison
-  * Wake and Vibrate on Phone Plugged on Charger
-  * AppOps: Manage your apps permissions in an advanced way
-
-Also, you can check a full list of Features available [here](https://github.com/BootleggersROM/ExtraStuff/blob/master/Features.md).
+<div class="card-image">
+	<img src="https://github.com/BootleggersROM/ExtraStuff/raw/pasta/threadfiles/00-banner.png">
+	<span class="card-title">About us</span>
+</div>
+<div class="card-content">
+	<p>Bootleggers ROM is a AOSP based ROM with some extra patches anf features from other projects, like LineageOS, Dirty Unicorns, PixelExperience, OmniROM, and many more. Our goal is trying to add the best to make you feel like 家. With all those feature, we also have some extra apps, themes and wallpaper to try to give you a great experience since the first boot.</p><br>
+	<p>The project began as a small project for the Moto E 2015 (LTE) back on Android 8.0 but then various users and maintainers got interested on supporting our project. Our source is constanly changing and upgrading thanks to various testers and maintainers with reports and commits needed for their devices, but in case we're missing something, please let us know on our instagram or telegram chat.</p><br>
+	<p>Our work wouldn't be possible thanks to our community of maintainers, testers or people who enjoy this custom ROM.</p><br>
+	<h5>Thank you list</h5>
+	<p>This is the list of all the projects/people who inspired and helped us</p>
+	<ul class="collapsible shishu-lighter-bg collapsible-noborder">
+		<li>
+			<div class="collapsible-header collapsible-noborder shishu-lighter-bg">
+				<i class="material-icons">favorite</i>
+			Thanks to:</div>
+			<div class="collapsible-body collapsible-noborder shishu-midlight-bg">
+		<p>Shishu (For being there)</p>
+		<p>Ground Zero ROMs Team</p>
+		<p>AOSPExtended</p>
+		<p>ABC ROMs</p>
+		<p>NitrogenOS</p>
+		<p>AICP</p>
+		<p>DirtyUnicorns</p>
+		<p>Lukas Koller (Camera Roll dev)</p>
+		<p>fxckingdeathwish (for the amazing photos for wallpaper/headers)</p>
+		<p>OmniROM</p>
+		<p>CyanogenMod/LineageOS</p>
+		<p>PixelExperience</p>
+		<p>PureNexus</p>
+		<p>merothh</p>
+		<p>Resurrection Remix</p>
+		<p>AOSiP</p>
+		<p>CrDroid</p>
+		<p>CypherOS</p>
+		<p>PureKat</p>
+		<p>theimpulson</p>
+		<p>MatiHalperin</p>
+		<p>Project Xtended</p>
+		<p>Pixeldust Project</p>
+		<p>AquariOS</p>
+		<p>Alejandro Ponce (Quetzal/Calypso dev)</p>
+		<p>PixysOS </p>
+		<p>The Memedo Testers team</p>
+			</div>
+		</li>
+	</ul>
+	<br>
+	<h5>Our sources</h5>
+	<p>Our project is open source and you can check it out on our Github. We got a testing organization when huge rebases happens, or when we're preparing our support for a large number of devices. Also, we have another organization for all our supported devices. In case you found some wrong authorship or some issue with the source itself, feel free to tell us via Telegram or our Instagram.</p><br>
+		<a class="waves-effect waves-light btn shishu-accent-btn" href="https://github.com/BootleggersROM">Our github</a>
+		<a class="waves-effect waves-light btn shishu-accent-btn" href="https://github.com/Bootleggers-Future">Our testing github</a>
+		<a class="waves-effect waves-light btn shishu-accent-btn" href="https://github.com/BootleggersROM-Devices">Our supported devices github</a>
+</div>

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The 2.2 - Dreambender Update... and a lot happened
+title: The Dreambender Update... and a lot happened
 image: https://raw.githubusercontent.com/BootleggersROM/ExtraStuff/master/blogstuff/bootleg_22_dreambender.png
 ---
 

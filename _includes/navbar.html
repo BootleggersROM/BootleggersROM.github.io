@@ -1,27 +1,21 @@
-   <!-- Navbar section -->
-    <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark" style="background-color:#24242e!important;">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-      <a class="navbar-brand" href="{{ site.url }}">
-        <img src="{{ site.baseurl }}/img/btlogo.png" class="btlogo" width="30" height="30" alt="" style="position:absolute;">
-        <img src="{{ site.baseurl }}/img/btlglogohover.png" class="btlogoh" width="30" height="30" alt="" style="display:none;position:absolute;">
-      </a>
-        <ul class="navbar-nav ml-auto mt-2 mt-lg-0" style="text-transform: uppercase;">
-          <li class="nav-item">
-            <a class="nav-link" href="{{ site.url }}/blog">Blog</a>
-          </li>
-    {% assign pages_list = site.pages | sort:"url" %}
-    {% for node in pages_list %}
-      {% if node.title != null %}
-        {% if node.layout == "page" %}
-          <li class="nav-item{% if page.url == site.baseurl %} active{% endif %}">
-            <a class="nav-link" href="{{ node.url }}">{{ node.title }}</a>
-          </li>
-        {% endif %}
-      {% endif %}
-    {% endfor %}
-        </ul>
-      </div>
-    </nav>
+<div class="navbar-fixed">
+  <nav>
+    <div class="nav-wrapper shishu-light-bg">
+      <a href="{{ site.url }}" class="brand-logo"><img src="{{- 'img/btlglogo.png' | relative_url -}}" class="responsive-img circle avatar" alt="Bootleggers"></a>
+      <a href="#" data-target="btlg-menu" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+        <li class="text-uppercase"><a href="{{ site.url }}">Home</a></li>
+        <li class="text-uppercase"><a href="{{- 'blog' | relative_url -}}">Blog</a></li>
+        <li class="text-uppercase"><a href="{{- 'downloads' | relative_url -}}">Downloads</a></li>
+        <li class="text-uppercase"><a href="{{- 'about' | relative_url -}}">About us</a></li>
+      </ul>
+    </div>
+  </nav>
+</div>
+
+  <ul class="shishu-midlight-bg sidenav" id="btlg-menu">
+    <li{% if page.url == site.baseurl %} class="active"{% endif %}><a href="{{ site.url }}">Home</a></li>
+    <li{% if page.url == site.baseurl %} class="active"{% endif %}><a href="{{- 'blog' | relative_url -}}">Blog</a></li>
+    <li{% if page.url == site.baseurl %} class="active"{% endif %}><a href="{{- 'downloads' | relative_url -}}">Downloads</a></li>
+    <li{% if page.url == site.baseurl %} class="active"{% endif %}><a href="{{- 'about' | relative_url -}}">About</a></li>
+  </ul>

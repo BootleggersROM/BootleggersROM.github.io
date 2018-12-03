@@ -1,44 +1,42 @@
 ---
-layout: default
-title: Blog
-permalink: blog.html
+layout: default-fluid
+title: Home
 ---
-
-
-<!-- BLOG CODE -->
-<div class="container posts">
-  <div class="row justify-content-center">
-        <div class="col-lg-12">
-  {% for post in paginator.posts %}
-
-           <div class="card shishulightbg">
-              <img class="card-img-top img-fluid mx-auto" src="{{ post.image }}" alt="Card image cap" style="max-height:300px">
-              <div class="card-body">
-                <h5 class="card-title"><a href="{{ site.url }}/{{ post.url }}"> {{ post.title }} </a> </h5>
-                <h6 class="card-subtitle mb-2 text-muted" style="color:rgba(255,255,255,.38) !important">{{ post.date | date_to_string }}</h6>
-                    {{ post.content }}
-              </div>
-            </div>
-            <br><br>
-  {% endfor %}
-        </div>
-  </div>
+<div class="parallax-container">
+	<div class="parallax">
+		<img src="{{- 'img/btlg_bg.png' | relative_url -}}">
+	</div>
+	<div class="overlay-parallax"></div>
+	<div class="parallax-main-holder center-align"><h1>Welcome to Bootleggers!</h1><h4 class="text-muted">Trying to make you feel like 家</h4><br>
+		<a class="waves-effect waves-light btn shishu-accent-btn" href="#moreinfo">Learn More</a>
+		<a class="waves-effect waves-light btn shishu-accent-btn" href="{{- 'downloads' | relative_url -}}">Downloads</a>
+		<a class="waves-effect waves-light btn shishu-accent-btn" href="{{- 'about' | relative_url -}}">About us</a>
+	</div>
 </div>
 
-<!--<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ site.baseurl }}/page{{paginator.next_page}}">Older</a>
-  {% else %}
-    <span class="pagination-item older">Older</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}/">Newer</a>
-    {% else %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}/page{{paginator.previous_page}}">Newer</a>
-    {% endif %}
-  {% else %}
-    <span class="pagination-item newer">Newer</span>
-  {% endif %}
-</div> -->
+<div class="container btlg-intro valign-wrapper" id="moreinfo">
+      <div class="col s12 m6 center-align"><img src="{{- 'img/btlg_ft1.png' | relative_url -}}" class="responsive-img"></div>
+      <div class="col s12 m6 center-align"><h4>The simplicity comes first</h4><br><p>Our main goal is keeping everything simple, without you needing to do a lot of extra things for it. We've picked some apps and features with the goal of making you feel that your device is a swiss knife of useful things.</p></div>
+</div>
+<div class="container btlg-intro valign-wrapper" id="moreinfo">
+      <div class="col s12 m6 center-align"><img src="{{- 'img/btlg_ft2.png' | relative_url -}}" class="responsive-img"></div>
+      <div class="col s12 m6 center-align"><h4>A dumpster but filled with nice things!</h4><br><p>Check out our Bootleg Dumpster, our land of features, switches and menues with a lot of really good things. From a statusbar logo to a new recents alternative, who knows what can be in there!</p></div>
+</div>
+<div class="parallax-container">
+	<div class="parallax">
+		<img src="{{- 'img/btlg_dawn.jpg' | relative_url -}}">
+	</div>
+	<div class="overlay-parallax"></div><br><br><br>
+	<div class="parallax-main-holder center-align"><h3>We're supporting {{ site.devices.size }} devices, and in the future even more!</h3><p>Our community of maintainers are giving their best to give you a great experience on every device, and we're adding patches and support for the new devices to come.</p>
+	</div>
+</div>
 
+<div class="container btlg-intro valign-wrapper" id="moreinfo">
+      <div class="col s12 m6 center-align"><img src="{{- 'img/btlg_ft3.png' | relative_url -}}" class="responsive-img"></div>
+      <div class="col s12 m6 center-align"><h4>Get to know your Shishu Dreams</h4><br><p>As many other projects, we got our custom theme called Shishu Dreams, a dark theme, with some gradients and pleasing colors. But if that doesn't fit you, you can check Shishu Nights, or Illusions, or Immensity, and there's more of our Shishu theme variants. Feel free to check them out and tell us what Shishu fits you!</p></div>
+</div>
+
+<div class="container btlg-intro valign-wrapper" id="moreinfo">
+      <div class="col s12 m6 center-align"><img src="{{- 'img/btlg_ft4.png' | relative_url -}}" class="responsive-img"></div>
+      <div class="col s12 m6 center-align"><h4>And don't forget to feel like 家!</h4><br><p>That's our goal. Giving you a variety of choices, mix them up with our aesthetics/customization and stability goals, with the end of making you feel at home. So hope you enjoy our project!</p></div>
+</div>

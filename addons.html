@@ -1,16 +1,36 @@
 ---
 layout: default
-title: "ROM Stuff"
-permalink: romstuff/addons.html
+title: Extras and Addons
+permalink: extras/addons.html
 ---
 
-<!-- BLOG CODE -->
-<div class="container">
-  <div class="row justify-content-center">
-{% for addon in site.addonstuff %}
-        <div class="col-lg-6" style="padding:15px">
+{% for addon in site.addons %}
+
+    <div class="col s12 m6">
+      <div class="card shishu-light-bg">
+        <div class="card-image">
+          <img src="{{ addon.pic }}" class="responsive-img">
+          {% if addon.xdathread %}
+          <a class="btn-floating halfway-fab waves-effect waves-light shishu-accent-btn tooltipped" data-position="left" data-tooltip="Get it from XDA!" href="{{ addon.xdathread }}"><i class="material-icons">library_books</i></a>
+          {% elsif addon.playstore %}
+          <a class="btn-floating halfway-fab waves-effect waves-light shishu-accent-btn tooltipped" data-position="left" data-tooltip="Get it from Play Store!" href="{{ addon.playstore }}"><i class="material-icons">shop</i></a>
+          {% elsif addon.download %}
+          <a class="btn-floating halfway-fab waves-effect waves-light shishu-accent-btn tooltipped" data-position="left" data-tooltip="Get it now!" href="{{ addon.download }}"><i class="material-icons">get_app</i></a>
+          {% else %}
+          <a class="btn-floating halfway-fab waves-effect waves-light shishu-accent-btn tooltipped" data-position="left" data-tooltip="Get it from" href="{{ addon.url }}"><i class="material-icons">exit_to_app</i></a>
+          {% endif %}
+        </div>
+        <div class="card-content shishu-light-bg">
+          <h5>{{ addon.title }}</h5>
+          <h6 class="text-muted">{{ addon.type }}</h6>
+          <p>{{ addon.desc }}</p>
+        </div>
+      </div>
+    </div>
+
+<!--        <div class="col-lg-6" style="padding:15px">
             <div class="card shishulightbg">
-              <img class="card-img-top img-fluid mx-auto" src="{{ addon.addonpic }}" alt="Card image cap" >
+              <img class="card-img-top img-fluid mx-auto" src="" alt="Card image cap" >
               <div class="card-body">
                 <h5 class="card-title">{{ addon.addontitle }}</h5>
                 <h6 class="card-subtitle mb-2 text-muted" style="color:rgba(255,255,255,.38) !important">{{ addon.addontype }}</h6>
@@ -20,7 +40,5 @@ permalink: romstuff/addons.html
                 </div>
         </div>
       </div>
-        </div>
+        </div> -->
 {% endfor %}
-    </div>
-</div>

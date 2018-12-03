@@ -1,0 +1,122 @@
+.shishu {
+	background-color:#121217!important;
+	color:#f3f3f3;
+  font-family: 'Roboto Condensed', sans-serif!important;
+}
+
+.text-shishu-muted {
+  color: #e1e1e1;
+}
+
+.shishu-light-bg {
+	background-color:#1c1c24!important;
+	color:#d3d3d3;
+}
+
+.shishu-midlight-bg {
+  background-color:#24242f!important;
+  color:#d3d3d3;
+}
+
+.shishu-lighter-bg {
+  background-color:#2d2d3a!important;
+  color:#d3d3d3;
+}
+
+.text-shishu-light-muted {
+  color: #c1c1c1;
+}
+
+.shishu-accent {
+	color:#e52c5f!important;
+}
+
+a {
+  color:#e52c5f!important;
+}
+
+.shishu-accent-btn {
+  color:#f3f3f3!important;
+  background-color:#e52c5f;
+}
+
+.shishu-accent-btn:hover {
+  color:#f3f3f3!important;
+  background-color:#ea567e;
+}
+
+nav .brand-logo > img {
+  display: block;
+  height: 60px;
+  padding: 6px 15px;
+}
+@media (min-width: 768px) {
+  .navbar > .container .brand-logo,
+  .navbar > .container-fluid .brand-logo {
+    margin-left: -15px;
+  }
+}
+
+.card .card-action:last-child, .card .card-content {
+  border-radius: 0 0 10px 10px!important;
+}
+
+.card-nopadding {
+  padding: 0px!important;
+}
+
+.card {
+  border-radius:10px;
+}
+
+.card .card-image img {
+  border-radius: 10px 10px 0 0!important;
+}
+
+.collapsible-noborder {
+  border-top: 0px solid #000;
+  border-right: 0px solid #000;
+  border-left: 0px solid #000;
+  border-bottom:0px solid #000;
+}
+
+.collapsible-header {
+  border-radius: 10px 10px 10px 10px!important;
+}
+
+.collapsible-header:focus {
+  border-radius: 10px 10px 0 0!important;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.text-muted {
+  opacity:0.64;
+}
+
+.parallax-container {
+  height: 450px;
+}
+
+.parallax-container .parallax img {
+  opacity:0.60;
+}
+
+.overlay-parallax {
+  position:absolute;
+  display:inline;
+  width:100%;
+  height:100%;
+  background-color:rgba(0,0,0,0.4);
+}
+
+.parallax-main-holder {
+  position:relative;
+  margin-top:18vh;
+}
+
+.btlg-intro {
+  height:450px;
+}

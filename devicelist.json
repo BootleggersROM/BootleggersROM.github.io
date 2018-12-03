@@ -1,0 +1,17 @@
+---
+permalink: /lameapi/devicelist.json
+---
+{
+{% for device in site.devices %}
+	"{{device.codename}}": {
+	"fullname": "{{device.fullname}}",
+	"maintainer": "{{device.maintainer}}",
+	"xdathread": "{{device.xdathread}}",
+	"filename": "{{device.filename}}",
+	"buildsize": "{{device.buildsize}}",
+	"download": https://downloads.sourceforge.net/projects/bootleggersrom/builds/{{ device.codename }}/{{ device.filename }}?r=https%3A%2F%2Fsourceforge.net%2Fprojects%2Fbootleggersrom%2Ffiles%2Fbuilds%2F{{ device.codename }}%2F{{ device.filename }}%2Fdownload&ts=1540933895
+	"mirrorlink": "{{device.mirrorlink}}",
+	"changelog": "{{device.changelog}}"
+}{% unless forloop.last %},{% endunless %}
+{% endfor %}
+}

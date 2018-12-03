@@ -1,26 +1,48 @@
-# Permalinks
+# Welcome to Jekyll!
 #
-# Use of `relative_permalinks` ensures post links from the index work properly.
-permalink:           pretty
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
-# Setup
-title:                Bootleggers ROM
-tagline:             'Making you feel like 家'
-description:         'Bootleggers ROM is an aftermarket firmware based on Ground Zero Open Source Project (GZOSP) and brings custom features with the most useful apps on your device.'
-url:                 http://BootleggersROM.github.io
-baseurl:             ''
-paginate:            5
-exclude:            ['README.md', 'License.md', 'intro.old']
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: Bootleggers ROM
+email: bootleggersunstable@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  A AOSP Custom ROM with the goal of making you feel like 家.
+  Including various features from other projects and some interesting
+  system apps.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: jekyllrb
+github_username:  jekyll
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
 
 # Collections
 collections:
-    devicelist:
-    addonstuff:
+    devices:
+    addons:
 
-# About/contact
-author:
-  name:              Bootleggers ROM
-  url:               http://BootleggersROM.github.io
-
-# Custom vars
-version:             2.0 Beta
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/

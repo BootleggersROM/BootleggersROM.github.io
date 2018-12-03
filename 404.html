@@ -1,12 +1,26 @@
 ---
-layout: default
-title: "404: Page not found"
-permalink: 404.html
+layout: default-nofoot
 ---
 
-<div class="text-center">
-  <h1>404: Page not found</h1>
-<br/>
+<style type="text/css" media="screen">
+  .container {
+    margin: 10px auto;
+    max-width: 600px;
+    text-align: center;
+  }
+  h1 {
+    margin: 30px 0;
+    font-size: 4em;
+    line-height: 1;
+    letter-spacing: -1px;
+  }
+</style>
 
-  <img src="{{ site.baseurl }}/img/chuck.png" />
+<div class="container">
+  <img src="{{- 'img/notnice.png' | relative_url -}}" width="150px" class="responsive-img">
+
+  <h5><strong>This is not nice</strong></h5>
+  <p>It seems like the page you were searching is not available or not found.</p>
+  <br>
+  <a class="waves-effect waves-light btn shishu-accent-btn" href="{{ site.url }}">go home</a>
 </div>

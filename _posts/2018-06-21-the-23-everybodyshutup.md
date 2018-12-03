@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The 2.3 - Everybody shut up update is here!
+title: The Everybody shut up update is here!
 image: https://raw.githubusercontent.com/BootleggersROM/ExtraStuff/master/blogstuff/bootleg_23_everybodyshutup.png
 ---
 
