@@ -1,12 +1,12 @@
 <div class="navbar-fixed">
   <nav>
     <div class="nav-wrapper shishu-light-bg">
-      <a href="{{ site.url }}" class="brand-logo"><img src="{{- 'img/btlglogo.png' | relative_url -}}" class="responsive-img circle avatar" alt="Bootleggers"></a>
+      <a href="https://bootleggersrom.github.io" class="brand-logo"><img src="{{- 'img/btlglogo.png' | relative_url -}}" class="responsive-img circle avatar" alt="Bootleggers"></a>
       <a href="#" data-target="btlg-menu" class="sidenav-trigger"><i class="material-icons">menu</i></a>
       <ul class="right hide-on-med-and-down">
-        <li class="text-uppercase"><a href="{{ site.url }}">Home</a></li>
+        <li class="text-uppercase"><a href="https://bootleggersrom.github.io">Home</a></li>
         <li class="text-uppercase"><a href="{{- 'blog' | relative_url -}}">Blog</a></li>
-        <li class="text-uppercase"><a href="{{- 'downloads' | relative_url -}}">Downloads</a></li>
+        <li class="text-uppercase"><a href="https://bootleggersrom-devices.github.io">Downloads</a></li>
         <li class="text-uppercase"><a href="{{- 'about' | relative_url -}}">About us</a></li>
       </ul>
     </div>
@@ -14,8 +14,8 @@
 </div>
 
   <ul class="shishu-midlight-bg sidenav" id="btlg-menu">
-    <li{% if page.url == site.baseurl %} class="active"{% endif %}><a href="{{ site.url }}">Home</a></li>
-    <li{% if page.url == site.baseurl %} class="active"{% endif %}><a href="{{- 'blog' | relative_url -}}">Blog</a></li>
-    <li{% if page.url == site.baseurl %} class="active"{% endif %}><a href="{{- 'downloads' | relative_url -}}">Downloads</a></li>
-    <li{% if page.url == site.baseurl %} class="active"{% endif %}><a href="{{- 'about' | relative_url -}}">About</a></li>
+    <li{% if site.url == site.baseurl %} class="active"{% endif %}><a href="https://bootleggersrom.github.io">Home</a></li>
+    <li{% if site.url == site.baseurl %} class="active"{% endif %}><a href="{{- 'blog' | relative_url -}}">Blog</a></li>
+    <li{% if site.url == site.baseurl %} class="active"{% endif %}><a href="https://bootleggersrom-devices.github.io">Downloads</a></li>
+    <li{% if site.url == site.baseurl %} class="active"{% endif %}><a href="{{- 'about' | relative_url -}}">About</a></li>
   </ul>

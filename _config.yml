@@ -32,7 +32,6 @@ plugins:
 
 # Collections
 collections:
-    devices:
     addons:
 
 # Exclude from processing.
