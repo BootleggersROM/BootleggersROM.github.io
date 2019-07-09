@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: blogpost
 title: Introducing Bootleggers
 image: https://raw.githubusercontent.com/BootleggersROM/ExtraStuff/master/threadfiles/01-intro.png
 ---

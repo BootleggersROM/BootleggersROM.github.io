@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: blogpost
 title: The 2.0 Release
 image: https://raw.githubusercontent.com/BootleggersROM/ExtraStuff/master/blogstuff/bannerblueprint.jpg
 ---

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: blogpost
 title: The Frumoasa update is finally here!
 image: https://raw.githubusercontent.com/BootleggersROM/ExtraStuff/master/blogstuff/bootleg_30_frumoasa.png
 ---

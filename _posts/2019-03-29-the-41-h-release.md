@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: blogpost
 title: The second pie release is here!
 image: https://raw.githubusercontent.com/BootleggersROM/ExtraStuff/pasta/blogstuff/bootleg_41_highlights.png
 ---

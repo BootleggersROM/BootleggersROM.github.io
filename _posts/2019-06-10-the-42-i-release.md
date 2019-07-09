@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: blogpost
 title: The 4.2 - IIIIII release is finally here!
 image: https://raw.githubusercontent.com/BootleggersROM/ExtraStuff/pasta/blogstuff/bootleg_42_iiiiii.jpg
 ---

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body class="shishu">
+    {% include navbar.html %}
+    <body>
+      <div class="container">
+        <div class="row">
+            <div class="card shishu-light-bg z-depth-3">
+                <div class="card-image">
+                <img src="{{ page.image }}" style="max-height:300px">
+                <span class="card-title">{{ page.title }}</span>
+                </div>
+                <div class="card-content blog-post">
+                {% if page.author %}
+                <p class="text-muted">Posted by {{ page.author }} · {{ page.date | date_to_long_string }}</p><br>
+                {% else %}
+                <p class="text-muted">Posted by Bootleggers Team · {{ page.date | date_to_long_string }}</p><br>
+                {% endif %}
+                {{ content }}
+                </div>
+                <div class="card-action">
+                <a href="http://t.me/keepthebootleg">Discuss it on our Telegram</a>
+                </div>
+            </div>
+        </div>
+      </div>
+    </body>
+    {% include footerlinks.html %}
+    {% include jsincludes.html %}
+  </body>
+</html>

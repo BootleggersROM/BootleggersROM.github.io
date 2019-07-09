@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: blogpost
 title: The Everybody shut up update is here!
 image: https://raw.githubusercontent.com/BootleggersROM/ExtraStuff/master/blogstuff/bootleg_23_everybodyshutup.png
 ---

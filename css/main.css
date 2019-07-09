@@ -120,3 +120,21 @@ nav .brand-logo > img {
 .btlg-intro {
   height:450px;
 }
+
+/* Added this to reset the internal values with some similar ones */
+.blog-post {
+    line-height:1.7em;
+    padding-bottom: 5px!important;
+}
+
+.blog-post p {
+    margin-bottom:1em!important;
+}
+
+.blog-post p .text-muted {
+    margin-bottom:0!important;
+}
+
+.blog-post p strong {
+    font-weight: bold;
+}
