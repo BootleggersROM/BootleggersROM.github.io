@@ -15,29 +15,27 @@
   <meta name="title" content="{{ page.title }}">
   <meta property="og:title" content="{{ page.title }}">
   <meta property="twitter:title" content="{{ page.title }}">
+  <meta property="og:type" content="article">
+  <meta property="og:article" content="true">
+  <meta property="og:image" content="{{ page.image }}">
+  <meta property="twitter:image" content="{{ page.image }}">
+  <meta property="twitter:card" content="summary_large_image">
   {% else %}
   <meta name="title" content="{{ site.title }} | {{ page.title }}">
   <meta property="og:title" content="{{ site.title }} | {{ page.title }}">
   <meta property="twitter:title" content="{{ site.title }} | {{ page.title }}">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://github.com/BootleggersROM/ExtraStuff/raw/pasta/threadfiles/00-banner.png">
+  <meta property="twitter:image" content="https://github.com/BootleggersROM/ExtraStuff/raw/pasta/threadfiles/00-banner.png">
+  <meta property="twitter:card" content="summary_large_image">
   {% endif %}
   <meta name="description" content="{{ page.excerpt | strip_html }}"/>
   <meta property="og:description" content="{{ page.excerpt | strip_html }}"/>
   <meta property="twitter:description" content="{{ page.excerpt | strip_html }}">
   {% endif %}
 
-  {% if page.image %}
-  <meta property="og:image" content="{{ page.image }}">
-  <meta property="twitter:image" content="{{ page.image }}">
-  <meta property="twitter:card" content="summary_large_image">
-  {% else %}
-  <meta property="og:image" content="https://github.com/BootleggersROM/ExtraStuff/raw/pasta/threadfiles/00-banner.png">
-  <meta property="twitter:image" content="https://github.com/BootleggersROM/ExtraStuff/raw/pasta/threadfiles/00-banner.png">
-  <meta property="twitter:card" content="summary_large_image">
-  {% endif %}
-
   <!-- Extra props -->
   <meta property="og:site_name" content="Bootleggers ROM">
-  <meta property="og:type" content="website">
   <meta property="og:url" content="{{ site.url }}">
   <meta property="twitter:url" content="{{ site.url }}">
   <meta name="theme-color" content="#1c1c24">
