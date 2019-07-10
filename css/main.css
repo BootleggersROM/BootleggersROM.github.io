@@ -123,7 +123,7 @@ nav .brand-logo > img {
 
 /* Added this to reset the internal values with some similar ones */
 .blog-post {
-    line-height:1.7em;
+    line-height:1.5em;
     padding-bottom: 5px!important;
 }
 
@@ -131,7 +131,7 @@ nav .brand-logo > img {
     margin-bottom:1em!important;
 }
 
-.blog-post p .text-muted {
+.blog-post p.text-muted {
     margin-bottom:0!important;
 }
 
