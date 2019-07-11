@@ -3,7 +3,6 @@
   {% include head.html %}
   <body class="shishu">
     {% include navbar.html %}
-    <body>
       <div class="container">
         <div class="row">
             <div class="card shishu-light-bg z-depth-3" id="article">
@@ -21,11 +20,21 @@
                 </div>
                 <div class="card-action">
                 <a href="http://t.me/keepthebootleg">Discuss it on our Telegram</a>
+                <div class="right">
+                <i class="dropdown-trigger waves-effect waves-light hide-on-med-and-up shishu-accent material-icons" data-target='share-drop'>share</i>
+                <a class="dropdown-trigger waves-effect waves-light hide-on-small-only" data-target='share-drop'>Share it on...</a>
+                    <ul id='share-drop' class='dropdown-content'>
+                        <li><a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}" target="_blank">Facebook</a></li>
+                        <li><a href="http://twitter.com/share?url={{ site.url }}{{ page.url }}&text={{ page.title }}">Twitter</a></li>
+                        <li><a href="https://reddit.com/submit?url={{ site.url }}{{ page.url }}&title={{ page.title }}">Reddit</a></li>
+                        <li class="hide-on-med-and-up"><a href="whatsapp://send?text={{ page.title }}: {{ site.url }}{{ page.url }}" data-action="share/whatsapp/share">WhatsApp</a></li>
+                        <li><a href="tg://msg?url={{ site.url }}{{ page.url }}&text={{ page.title }}">Telegram</a></li>
+                    </ul>
+                </div>
                 </div>
             </div>
         </div>
       </div>
-    </body>
     {% include footerlinks.html %}
     {% include jsincludes.html %}
   </body>
