@@ -20,6 +20,9 @@
   <meta property="og:image" content="{{ page.image }}">
   <meta property="twitter:image" content="{{ page.image }}">
   <meta property="twitter:card" content="summary_large_image">
+  <meta name="description" content="{{ page.excerpt | strip_html }}"/>
+  <meta property="og:description" content="{{ page.excerpt | strip_html }}"/>
+  <meta property="twitter:description" content="{{ page.excerpt | strip_html }}">
   {% else %}
   <meta name="title" content="{{ site.title }} | {{ page.title }}">
   <meta property="og:title" content="{{ site.title }} | {{ page.title }}">
@@ -28,10 +31,10 @@
   <meta property="og:image" content="https://github.com/BootleggersROM/ExtraStuff/raw/pasta/threadfiles/00-banner.png">
   <meta property="twitter:image" content="https://github.com/BootleggersROM/ExtraStuff/raw/pasta/threadfiles/00-banner.png">
   <meta property="twitter:card" content="summary_large_image">
+  <meta name="description" content="{{ site.description }}">
+  <meta property="og:description" content="{{ site.description }}">
+  <meta property="twitter:description" content="{{ site.description }}">
   {% endif %}
-  <meta name="description" content="{{ page.excerpt | strip_html }}"/>
-  <meta property="og:description" content="{{ page.excerpt | strip_html }}"/>
-  <meta property="twitter:description" content="{{ page.excerpt | strip_html }}">
   {% endif %}
 
   <!-- Extra props -->
