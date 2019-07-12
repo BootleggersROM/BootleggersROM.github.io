@@ -73,6 +73,12 @@ nav .brand-logo > img {
   border-radius: 10px 10px 0 0!important;
 }
 
+.card .card-content pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    text-align: justify;
+}
+
 .collapsible-noborder {
   border-top: 0px solid #000;
   border-right: 0px solid #000;
