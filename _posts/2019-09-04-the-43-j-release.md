@@ -6,9 +6,11 @@ image: https://raw.githubusercontent.com/BootleggersROM/ExtraStuff/pasta/blogstu
 Hello everybody! After a really long period of planning, some great stuff, some pretty bad stuff too, we finally reached our 4.3 release. We called [+ jason is dead +](https://nbbeats.bandcamp.com/track/jason-is-dead) because this is our moment to chill. We want to thank our community who waited for this release, and for those who supported us. We got into our second Android Release, and if it wasn't for all your support, feedback and VoLTE questions, this couldn't be possible.
 
 **Two months of news**
+
 Welp, we got some interesting things happening that delayed this release a lot. Some of things were pretty positive, like... We have a domain now! Instead of using 2 different urls for devices and the website, now we have something pretty unified. We got some issues with OTA but thanks to our maintainers and the people who reported the issue, we got it sorted out. Also, we got a temporal server donation to host a Gerrit, but there were issues with the machine. We appreciate it and it really helped us at the time of working on some stuff, so massive thanks to Brenden for his help! Also, it's worth mentioning to thank you all, from the peole who enjoy this ROM and welp, share it with their friends, brags their setup or even go the extra mile and send us a donation, that helps us to improve, from a stability point to even a infrastructure one. Also, we got some bad news, from some broken features, to some maintainers coming and going away, until something that might delay the Q release, more about that later.
 
 **What about the new things?**
+
 This release was planned to be something bigger, but after a talk with our maintainer, we decided to add changes that are pretty essential to close down this Pie chapter, with a mix of... trying to improve what we had already and fixing some bugs and keeping everything up-to-date... and why not having some fun inbetween?
 That's why we share to you our changelog:
 
