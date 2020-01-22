@@ -144,3 +144,7 @@ nav .brand-logo > img {
 .blog-post p strong {
     font-weight: bold;
 }
+
+.blog-post p img {
+    max-width: 100%;
+}
