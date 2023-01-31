@@ -1,7 +1,7 @@
 ---
 layout: blogpost
 title: The Everybody shut up update is here!
-image: https://raw.githubusercontent.com/BootleggersROM/ExtraStuff/master/blogstuff/bootleg_23_everybodyshutup.png
+image: https://raw.githubusercontent.com/BootleggersROM/ExtraStuff/main/images/blogposts/bootleg_23_everybodyshutup.png
 ---
 
 Hey, how was it going? It's been a while but the waiting is finished! Bootleggers 2.3 is finally here! Our musical codename is [**Everybody Shut Up**](https://www.youtube.com/watch?v=JEl96I_4PuI) and it's because something like this happens 87 times a day. 

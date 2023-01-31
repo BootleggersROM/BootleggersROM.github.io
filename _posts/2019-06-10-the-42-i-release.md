@@ -1,7 +1,7 @@
 ---
 layout: blogpost
 title: The 4.2 - IIIIII release is finally here!
-image: https://raw.githubusercontent.com/BootleggersROM/ExtraStuff/pasta/blogstuff/bootleg_42_iiiiii.jpg
+image: https://raw.githubusercontent.com/BootleggersROM/ExtraStuff/main/images/blogposts/bootleg_42_iiiiii.jpg
 ---
 
 Hello everybody! Hope you're having a nice monday. After almost 2 months of a bit of work mixed with some difficulties, we can finally release our 4.2 release. Our musical codename is [**IIIIII**](https://www.youtube.com/watch?v=yeeK5aQSzRo) because it's the most accurate representation about this release went.

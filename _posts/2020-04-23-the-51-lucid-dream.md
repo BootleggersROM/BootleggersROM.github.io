@@ -1,7 +1,7 @@
 ---
 layout: blogpost
 title: The 5.1 - Lucid Dream release is here!
-image: https://raw.githubusercontent.com/BootleggersROM/ExtraStuff/pasta/blogstuff/bootleg_51_lucid_dream.png
+image: https://raw.githubusercontent.com/BootleggersROM/ExtraStuff/main/images/blogposts/bootleg_51_lucid_dream.png
 ---
 
 Hey these, welcome back to another post about this new release. This release is called [**Lucid Dream**](https://cutt.ly/2ytT88E) as it's a song that actually relates to our goal with this release. We've been through a lot of thoughts and testing during this release, and we hope you like the final result, as our approach with it was... simply coming back to our roots, but more on that later. First of all we have to thank our team members, dinosnore, simrat39 and tribual and our maintainers for their contributions, and hard work testing. Without their help and testing, this release couldn't get out faster. Now, let's talk about some changes...

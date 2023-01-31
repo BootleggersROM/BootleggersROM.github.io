@@ -1,7 +1,7 @@
 ---
 layout: blogpost
 title: The Dreambender Update... and a lot happened
-image: https://raw.githubusercontent.com/BootleggersROM/ExtraStuff/master/blogstuff/bootleg_22_dreambender.png
+image: https://raw.githubusercontent.com/BootleggersROM/ExtraStuff/main/images/blogposts/bootleg_22_dreambender.png
 ---
 
 Well, after a lot of various thing and a bunch of stuff we have to talk, the 2.2 milestone/release has arrived! Our musical codename is [Dreambender](https://www.youtube.com/watch?v=A1a1x02dFlM) because it's an incredible song.

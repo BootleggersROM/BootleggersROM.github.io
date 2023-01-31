@@ -1,7 +1,7 @@
 ---
 layout: blogpost
 title: The Frumoasa update is finally here!
-image: https://raw.githubusercontent.com/BootleggersROM/ExtraStuff/master/blogstuff/bootleg_30_frumoasa.png
+image: https://raw.githubusercontent.com/BootleggersROM/ExtraStuff/main/images/blogposts/bootleg_30_frumoasa.png
 ---
 
 After a super long hiatus of some teasing with screenshots, headaches, rumors that we left everything dead and a Android release, Bootleggers 3.0 is finally here! Our musical codename is [**Frumoasa**](https://www.youtube.com/watch?v=yJZcEWr-8Jw) because we were about to [**eat too many shrimps**](https://www.youtube.com/watch?v=rY-FJvRqK0E) but decided to relax a bit. 

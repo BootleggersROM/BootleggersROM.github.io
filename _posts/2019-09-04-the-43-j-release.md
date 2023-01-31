@@ -1,7 +1,7 @@
 ---
 layout: blogpost
 title: The 4.3 - jason is dead release is here!
-image: https://raw.githubusercontent.com/BootleggersROM/ExtraStuff/pasta/blogstuff/bootleg_43_jason.png
+image: https://raw.githubusercontent.com/BootleggersROM/ExtraStuff/main/images/blogposts/bootleg_43_jason.png
 ---
 Hello everybody! After a really long period of planning, some great stuff, some pretty bad stuff too, we finally reached our 4.3 release. We called [+ jason is dead +](https://nbbeats.bandcamp.com/track/jason-is-dead) because this is our moment to chill. We want to thank our community who waited for this release, and for those who supported us. We got into our second Android Release, and if it wasn't for all your support, feedback and VoLTE questions, this couldn't be possible.
 

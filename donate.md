@@ -5,7 +5,7 @@ permalink: /donate/
 ---
 <!-- COMMENTED OUT DUE TO NOT KNOWING WHAT IMAGE TO PLACE HERE 
 <div class="card-image">
-	<img src="https://github.com/BootleggersROM/ExtraStuff/raw/pasta/threadfiles/00-banner.png">
+	<img src="https://github.com/BootleggersROM/ExtraStuff/raw/main/images/xdathread/00-banner.png">
 	<span class="card-title">About us</span>
 </div> -->
 <div class="card-content">

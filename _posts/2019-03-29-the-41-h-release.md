@@ -1,7 +1,7 @@
 ---
 layout: blogpost
 title: The second pie release is here!
-image: https://raw.githubusercontent.com/BootleggersROM/ExtraStuff/pasta/blogstuff/bootleg_41_highlights.png
+image: https://raw.githubusercontent.com/BootleggersROM/ExtraStuff/main/images/blogposts/bootleg_41_highlights.png
 ---
 
 It's been 3 months between our first pie release, that took a really long time, but finally, Bootleggers 4.1 is here! Our musical codename is [**Highlights**](https://www.youtube.com/watch?v=5RZKpIcg48U) because we got a lot to highlight.

@@ -1,7 +1,7 @@
 ---
 layout: blogpost
 title: The 4.7 - First MadStinky release of 10 is here!
-image: https://raw.githubusercontent.com/BootleggersROM/ExtraStuff/pasta/blogstuff/bootleg_47_madstinky.png
+image: https://raw.githubusercontent.com/BootleggersROM/ExtraStuff/main/images/blogposts/bootleg_47_madstinky.png
 ---
 Hello everyone! There's a lot of things that we have to tell you since our last Pie release, related to the project and the community. But first, we have to answer some questions: First, what's going to happen with Pie? and what about 10? Let's talk about it
 
